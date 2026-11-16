@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.3.4, pluggy-1.5.0
+rootdir: /workspace/secure-authentication-lab
+collected 4 items
+
+test_auth.py::test_password_hashing_and_validation PASSED                [ 25%]
+test_auth.py::test_generic_authentication_errors PASSED                  [ 50%]
+test_auth.py::test_secure_cookie_flags_and_logout PASSED                 [ 75%]
+test_auth.py::test_login_rate_limiting PASSED                            [100%]
+
+============================== 4 passed in 0.42s ===============================
